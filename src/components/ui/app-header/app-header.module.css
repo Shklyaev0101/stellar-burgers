@@ -1,5 +1,6 @@
 .header {
   background-color: var(--background);
+  width: 100%;
 }
 .menu {
   display: flex;
