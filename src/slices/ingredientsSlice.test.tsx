@@ -1,5 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import ingredientsReducer, { fetchIngredients, initialState } from './ingredientsSlice';
+import ingredientsReducer, {
+  fetchIngredients,
+  initialState
+} from './ingredientsSlice';
 
 // тест стор
 const createTestStore = (preloadedState = initialState) =>

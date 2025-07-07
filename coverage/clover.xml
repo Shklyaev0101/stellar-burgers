@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1751861486945" clover="3.2.0">
-  <project timestamp="1751861486945" name="All files">
-    <metrics statements="3805" coveredstatements="490" conditionals="235" coveredconditionals="59" methods="273" coveredmethods="24" elements="4313" coveredelements="573" complexity="0" loc="3805" ncloc="3805" packages="59" files="156" classes="156"/>
+<coverage generated="1751884496057" clover="3.2.0">
+  <project timestamp="1751884496057" name="All files">
+    <metrics statements="3811" coveredstatements="490" conditionals="235" coveredconditionals="59" methods="273" coveredmethods="24" elements="4319" coveredelements="573" complexity="0" loc="3811" ncloc="3811" packages="59" files="156" classes="156"/>
     <package name="src">
       <metrics statements="28" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="3" coveredmethods="0"/>
       <file name="index.tsx" path="/Users/dmitrii/Desktop/projects/Новая папка/stellar-burgers/src/index.tsx">
@@ -1665,13 +1665,13 @@
       </file>
     </package>
     <package name="src.components.ui.modal">
-      <metrics statements="34" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <metrics statements="38" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="3" coveredmethods="0"/>
       <file name="index.ts" path="/Users/dmitrii/Desktop/projects/Новая папка/stellar-burgers/src/components/ui/modal/index.ts">
         <metrics statements="1" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
       </file>
       <file name="modal.tsx" path="/Users/dmitrii/Desktop/projects/Новая папка/stellar-burgers/src/components/ui/modal/modal.tsx">
-        <metrics statements="26" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <metrics statements="30" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
@@ -1698,6 +1698,10 @@
         <line num="24" count="0" type="stmt"/>
         <line num="25" count="0" type="stmt"/>
         <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
       </file>
       <file name="type.ts" path="/Users/dmitrii/Desktop/projects/Новая папка/stellar-burgers/src/components/ui/modal/type.ts">
         <metrics statements="7" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -1841,13 +1845,13 @@
       </file>
     </package>
     <package name="src.components.ui.order-details">
-      <metrics statements="33" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <metrics statements="35" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="3" coveredmethods="0"/>
       <file name="index.ts" path="/Users/dmitrii/Desktop/projects/Новая папка/stellar-burgers/src/components/ui/order-details/index.ts">
         <metrics statements="1" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
       </file>
       <file name="order-details.tsx" path="/Users/dmitrii/Desktop/projects/Новая папка/stellar-burgers/src/components/ui/order-details/order-details.tsx">
-        <metrics statements="29" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <metrics statements="31" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
@@ -1877,6 +1881,8 @@
         <line num="27" count="0" type="stmt"/>
         <line num="28" count="0" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
       </file>
       <file name="type.ts" path="/Users/dmitrii/Desktop/projects/Новая папка/stellar-burgers/src/components/ui/order-details/type.ts">
         <metrics statements="3" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>

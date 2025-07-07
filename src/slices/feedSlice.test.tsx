@@ -9,21 +9,20 @@ const createTestStore = (preloadedState = initialState) =>
 
 describe('тестируем feedSlice', () => {
   it('тестирум fetchFeed.pending', () => {
-
     const store = createTestStore();
 
     store.dispatch({ type: fetchFeed.pending.type });
 
     const state = store.getState().feed;
-   
+
     expect(state.loading).toBe(true);
-  
+
     expect(state.error).toBe(null);
   });
 
   it('тестирум fetchFeed.fulfilled', () => {
     const store = createTestStore();
-    
+
     const mockFeedResponse: TFeedsResponse = {
       success: true,
       orders: [
@@ -40,24 +39,24 @@ describe('тестируем feedSlice', () => {
       total: 100,
       totalToday: 10
     };
-    
+
     store.dispatch({
       type: fetchFeed.fulfilled.type,
       payload: mockFeedResponse
     });
 
     const state = store.getState().feed;
-    
+
     expect(state.loading).toBe(false);
-    
+
     expect(state.feed).toEqual(mockFeedResponse);
-    
+
     expect(state.error).toBe(null);
   });
 
   it('тестирум fetchFeed.rejected', () => {
     const store = createTestStore();
-    
+
     const mockError = 'Failed to fetch feed';
 
     store.dispatch({
