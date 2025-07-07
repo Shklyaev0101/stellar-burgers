@@ -9,7 +9,7 @@ interface BurgerState {
   error: string | null;
 }
 
-const initialState: BurgerState = {
+export const initialState: BurgerState = {
   cartItems: [],
   loading: false,
   error: null

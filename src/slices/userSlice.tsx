@@ -8,19 +8,19 @@ import {
   updateUserApi,
   TUserResponse,
   logoutApi
-} from '@api';
+} from '../utils/burger-api';
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import { TUser } from '@utils-types';
 import { RootState } from '../services/store';
 import { deleteCookie, setCookie } from '../utils/cookie';
 
-interface UserState {
+export interface UserState {
   user: TUser | null;
   loading: boolean;
   error: string | null;
 }
 
-const initialState: UserState = {
+export const initialState: UserState = {
   user: null,
   loading: false,
   error: null
@@ -82,7 +82,7 @@ export const userSlice = createSlice({
       })
       .addCase(fetchUser.rejected, (state, action) => {
         state.loading = false;
-        state.error = action.error.message || 'Failed to fetch orders';
+        state.error = action.error.message || 'Failed to fetch user';
       })
       .addCase(registerUser.pending, (state) => {
         state.loading = true;

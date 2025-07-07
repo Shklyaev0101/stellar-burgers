@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "accessToken": "Bearer fake-access-token-1234567890",
+    "refreshToken": "fake-refresh-token-0987654321",
+    "user": {
+      "email": "ds.shklyaev@gmail.com",
+      "name": "Shklyaev0101"
+    }
+  }

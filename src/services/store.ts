@@ -12,7 +12,7 @@ import {
 } from 'react-redux';
 
 // Заменить на импорт настоящего редьюсера
-const rootReducer = combineReducers({
+export const rootReducer = combineReducers({
   burger: burgerReducer,
   user: userReducer,
   ingredients: ingredientsReducer,
